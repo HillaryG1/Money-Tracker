@@ -27,3 +27,17 @@
 .bg-purple{
   background-color: var(--color-purple);
 }
+
+.chart-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.chart {
+  position: relative; 
+}
+
+
