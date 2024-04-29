@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-
+import List from './List';
 export default function Form() {
   // Destructuring the methods provided by react-hook-form
   const { register, handleSubmit } = useForm();
@@ -51,6 +51,8 @@ export default function Form() {
           </div>
         </div>
       </form>
+
+      <List></List>
     </div>
   );
 }
