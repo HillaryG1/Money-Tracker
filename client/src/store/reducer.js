@@ -10,7 +10,7 @@ export const expenseSlice = createSlice({
   initialState,
   reducers: {
     getTransactions: (state) => {
-      // Your reducer logic goes here
+      // reducer logic goes here
     } 
   }
 });
